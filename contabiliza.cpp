@@ -1,23 +1,30 @@
+//Programa creado por Fausto Montaño 
+//curso: 1ro "B" TICS
+
+
 #include<iostream>
 
 using namespace std;
 int main()
 {
-	int i=0,l;
-	float x,s=0;
-	cout<<"Ingrese el limite l= ";cin>>l;
-	do{
-		cout<<"Ingrse el numero x= ";cin>>x;
-		i=i+1;
-		s=s+x;
+	int f=0,s;
+	float m,j=0;
+	cout<<"Ingrese el limite s= ";cin>>s;
+	do
+	{
+		cout<<"Ingrse el numero m= ";cin>>m;
+		f=f+1;
+		j=j+m;
 
 
 
-	}while (i<1);
-	cout<<"Se ingresaron" <<l<< " Los numeros "<<"Que sumaron "<<s<<endl;
+	}
+
+	while (f<1);
+	cout<<"Se ingresaron:" <<s<< " Los numeros "<<"Que sumaron:"<<j<<endl;
 	return 0;
 }
 
-//Programa creado por Fausto Montaño
+//2022
 
 
