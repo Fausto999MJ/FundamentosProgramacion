@@ -3,16 +3,17 @@ using namespace std;
 
 int main() 
   {
-	  float q,d,p;
-	  cout<<"Ingrese 2 numeros q p :";
-	  cin>>q>>d;
+	  float x,y,z;
+	  cout<<"Ingrese 2 numeros x y :";
+	  cin>>x>>y;
 
-	  p=q+d;
+	  z=x+y;
 
 	  cout<<"El resultado es : ";
-	  cout<<p<<endl;
+	  cout<<z<<endl;
 	  return 0;
   }
 
-   //Programa creado por Fausto Montaño
+   
+
 
